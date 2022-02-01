@@ -1,5 +1,5 @@
 #Copyright
-This website is in no shape or form intended for commercial use. This is just a practice website 
+This website is in no shape or form intended for commercial use. This is just a website 
 for practice, and having fun with development and React.
 
 #Tesla Clone
