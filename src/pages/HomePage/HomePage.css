@@ -1,0 +1,22 @@
+.powerwall {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://www.gosolarpower.com/wp-content/uploads/2021/06/powerwall-tesla-.png');
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit:  contain;
+}
+
+.title {
+    position: fixed;
+    width: 500px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #393C41;
+}
+.title > h1 {
+    font-size: 50px;
+}

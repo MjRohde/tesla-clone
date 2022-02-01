@@ -1,0 +1,61 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;   
+    height: 50px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.top-left{
+    flex: 0.2;
+}
+.top-left > img {
+    width: 150px;
+    height: 80px;
+}
+
+.center {
+    flex: 0.5;
+    justify-content: center;
+    align-items: center;
+}
+.center > a {
+    flex: 0.2;
+    margin: 0 10px
+}
+.top-right{
+    flex: 0.2;
+    display: flex;
+    text-align: right;
+}
+.center > a {
+    flex: 0.2;
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    transition: 0.5s ease-in;
+}
+
+.top-right > a {
+    flex: 0.2;
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    transition: 0.5s ease-in;
+}
+
+.center > a:hover {
+    background-color:rgba(150, 150, 150,0.2);
+    border-radius: 30px;
+}
+
+.top-right > a:hover {
+    background-color:rgba(150, 150, 150,0.2);
+    border-radius: 30px;
+}

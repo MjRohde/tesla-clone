@@ -1,0 +1,209 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+.headerModelY {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/0cf18940-c0bf-45f7-b2d8-46c3bc693c65/bvlatuR/std/0x0/model-y_R1@2');
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit:  contain;
+}
+.headerModel3 {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://www.lydogbilde.no/wp-content/uploads/2020/10/tesla-model-3-1920x1080.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit:  contain;
+}
+.headerModelS {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/32e5e0f3-5c04-42ef-8f8f-c6b1c26f8a9e/bvlatuR/std/2880x1800/ms-main-hero-desktop');
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit:  contain;
+}
+.powerwall {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://www.gosolarpower.com/wp-content/uploads/2021/06/powerwall-tesla-.png');
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit:  contain;
+}
+.equipment {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #F8F8FA;
+    background-image: url('https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/CHARGING_ADAPTERS/1457768-01-F_0.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    object-fit:  contain;
+}
+.headerModelX {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/da705069-91b5-41cb-86f3-86a585c6fdf3/bvlatuR/std/2880x1800/MX-Hero-Desktop');
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit:  contain;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;   
+    height: 50px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-left{
+    flex: 0.2;
+}
+.top-left > img {
+    width: 150px;
+    height: 80px;
+}
+
+.center {
+    flex: 0.5;
+    justify-content: center;
+    align-items: center;
+}
+.center > a {
+    flex: 0.2;
+    margin: 0 10px
+}
+.top-right{
+    flex: 0.2;
+    display: flex;
+    text-align: right;
+}
+.center > a {
+    flex: 0.2;
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    transition: 0.5s ease-in;
+}
+
+.top-right > a {
+    flex: 0.2;
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    transition: 0.5s ease-in;
+}
+
+.center > a:hover {
+    background-color:rgba(150, 150, 150,0.2);
+    border-radius: 30px;
+}
+
+.top-right > a:hover {
+    background-color:rgba(150, 150, 150,0.2);
+    border-radius: 30px;
+}
+
+@keyframes fadeInBottom {
+    from { opacity: 0; top: 30%;}
+    to {opacity: 1;}
+}
+.title {
+    position: fixed;
+    width: 500px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #393C41;
+    animation: fadeInBottom 3s;
+}
+
+.title > h1 {
+    font-size: 50px;
+}
+
+.tD{
+    border-bottom: 1px solid #393C41;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    color: #393C41;
+    text-decoration: none;
+}
+
+.tD:hover {
+    border-bottom: 2px solid #393C41;
+    color: #393C41;
+}
+
+.buttons{
+    position: fixed;
+    bottom:10%;
+    left:0;
+    right:0;
+    display: flex;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.btn-black {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:#393C41;
+    width:15%;
+    color: white;
+    border-radius: 30px;
+    margin: 0 20px;
+    padding: 5px 40px;
+    text-decoration: none;
+    fill:8px;
+    cursor: pointer;
+    animation: fadeInBottom 5s;
+}
+.btn-white {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:#FFF;
+    width:15%;
+    margin: 0 20px;
+    padding: 5px 40px;
+    color: #393C41;
+    border-radius: 30px;
+    fill: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    animation: fadeInBottom 5s;
+}
+
+.btn-black:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-white:hover {
+    color: #393C41;
+}
+
+    

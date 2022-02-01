@@ -1,0 +1,82 @@
+.experience-container {
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience-text {
+  height: 100vh;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  margin-left: 300px;
+}
+
+.experience-button {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+}
+
+.buttonTrans {
+  background-color: transparent;
+  border: 3px solid black;
+  border-radius: 30px;
+  color: black;
+  padding: 8px 80px;
+  margin-right: 20px;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+.buttonTrans:hover {
+  color: white;
+  background-color: black;
+}
+
+.buttonBlack-exp {
+  background-color: white;
+  border: 3px solid white;
+  border-radius: 30px;
+  color: black;
+  padding: 8px 80px;
+  margin-right: 20px;
+  margin-top: 50px;
+  text-decoration: none;
+}
+.buttonBlack-exp:hover {
+  color: black;
+  background: #e2e3e3;
+}
+
+.whiteBorder {
+  border: 3px solid white;
+  border-radius: 30px;
+  color: white;
+  background: transparent;
+  padding: 8px 80px;
+  text-decoration: none;
+}
+
+.whiteBorder:hover {
+  background: white;
+  color: black;
+}
+
+.experience-content {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.experience-image {
+  width: 80vw;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
